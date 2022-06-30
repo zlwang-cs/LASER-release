@@ -1,0 +1,26 @@
+{
+  "architectures": [
+    "LayoutlmForSequenceToSequence"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "base_model_type": "layoutlm",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label_smoothing": 0.1,
+  "layer_norm_eps": 1e-12,
+  "max_2d_position_embeddings": 1024,
+  "max_position_embeddings": 1024,
+  "max_source_length": 513,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "source_type_id": 0,
+  "target_type_id": 1,
+  "type_vocab_size": 2,
+  "vocab_size": 30522,
+  "vocab_size_or_config_json_file": 30522
+}

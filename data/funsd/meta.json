@@ -1,0 +1,38 @@
+{
+    "labels": [
+        "answer",
+        "header",
+        "question"
+    ],
+    "words": [
+        "answer",
+        "header",
+        "question"
+    ],
+    "tokens": [
+        "answer",
+        "header",
+        "question"
+    ],
+    "token_dict": {
+        "answer": 3437,
+        "header": 20346,
+        "question": 3160
+    },
+    "next_token_dict": {
+        "<END>": [
+            "answer",
+            "header",
+            "question"
+        ],
+        "answer": [
+            "<TAG_END>"
+        ],
+        "header": [
+            "<TAG_END>"
+        ],
+        "question": [
+            "<TAG_END>"
+        ]
+    }
+}
