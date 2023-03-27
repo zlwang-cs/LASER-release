@@ -1,7 +1,7 @@
 GPU=$1
 
 # This should be the path to the project directory.
-PROJECT=/home/zilong/Projects/LASER-release
+PROJECT=path/to/LASER-release
 cd $PROJECT
 
 for sz in 1 3 5 7
@@ -32,9 +32,9 @@ do
             --num_warmup_rate               0. \
             \
             --model_type                    layoutlm \
-            --model_name_or_path            ${PROJECT}/weights/layoutreader/ckpt/pytorch_model.bin \
+            --model_name_or_path            ${PROJECT}/weights/layoutreader/pytorch_model.bin \
             --tokenizer_name                ${PROJECT}/weights/special_bert_base_uncased_tokenizer \
-            --config_name                   ${PROJECT}/weights/layoutreader/ckpt/config.json \
+            --config_name                   ${PROJECT}/weights/layoutreader/config.json \
             --do_lower_case                 \
             --fp16                          \
             --fp16_opt_level                O2 \

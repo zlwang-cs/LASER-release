@@ -2,5 +2,4 @@ outputs
 .DS_Store
 *.pyc
 __pycache__
-weights/layoutreader/ckpt/pytorch_model.bin
-weights/layoutreader/ckpt/ckpt.zip
+weights/layoutreader/pytorch_model.bin
