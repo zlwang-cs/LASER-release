@@ -1,3 +1,8 @@
+
+<a target="_blank" href="https://colab.research.google.com/github/https://colab.research.google.com/drive/1hlkvpGma6uA_116lzDTpJeXF0ashLC6H?usp=sharing">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 # LASER
 
 This is the pytorch implemention for the ACL '22 Finding paper [Towards Few-shot Entity Recognition in Document Images: A Label-aware Sequence-to-Sequence Framework](https://arxiv.org/abs/2204.05819).
